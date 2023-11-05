@@ -1,0 +1,31 @@
+.transaction_table {
+  border-collapse: collapse;
+  border: 3px solid #000000;
+  table-layout: fixed;
+}
+.table_head th:nth-child(1) {
+  width: 60%;
+}
+.table_head th:nth-child(2) {
+  width: 20%;
+}
+.table_head th:nth-child(3) {
+  width: 20%;
+}
+.table_head {
+  background-color: aqua;
+}
+.table_body {
+  background-color: #ffffff;
+}
+
+/* .table_head td, */
+.table_body td {
+  text-transform: capitalize;
+  padding: 15px;
+  border: 1px solid #000000;
+}
+.table_head th {
+  padding: 20px;
+  border: 1px solid #000000;
+}
