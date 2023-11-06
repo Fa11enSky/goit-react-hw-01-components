@@ -2,9 +2,9 @@ import Statistics from './statistic/statistic';
 import Profile from './user_profile/profile';
 import user from './user_profile/user.json';
 import stats from './statistic/data.json';
-import friends from './friendList/friends.json'
+import friends from './friendList/friends.json';
 import FriendList from './friendList/friendList';
-import transactions from './transactionHistory/transactions.json'
+import transactions from './transactionHistory/transactions.json';
 import TransactionHistory from './transactionHistory/transactionHistory';
 export const App = () => {
   return (
@@ -18,7 +18,7 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
         gap: '20px',
-        backgroundColor:'rgb(220, 220, 220)'
+        backgroundColor: 'rgb(220, 220, 220)',
       }}
     >
       <Profile
@@ -30,7 +30,7 @@ export const App = () => {
       />
       <Statistics stats={stats} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions}/>
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
