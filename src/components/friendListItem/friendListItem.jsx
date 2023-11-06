@@ -7,9 +7,7 @@ const FriendListItem = ({ friends }) => {
       <li className={css.item} key={el.id}>
         <span
           className={clsx(css.status, el.isOnline ? css.online : css.offline)}
-        >
-          {}
-        </span>
+        ></span>
         <img
           className={css.avatar}
           src={el.avatar}
